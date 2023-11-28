@@ -1,6 +1,6 @@
 // Task1
 
-let arr = [2, 3, 4, 6, 3, 9, 7];
+// let arr = [2, 4, 3, 4, 6, 4, 3];
 let arrABC = ['n', 'i', 'h', 'a', 'd'];
 // let arr1 = ['a', 'd', 7];
 
@@ -91,8 +91,47 @@ let arrABC = ['n', 'i', 'h', 'a', 'd'];
 // console.log(arr)
 
 
-// Task 8
+// // Task 8
+
+// let arr = [2, 4, 3, 4, 6, 4, 3];
+
+// function lastElement() {
+
+//     for (let i = 0; i < arr.length; i++) {
+//         // console.log(arr[i]);
+//         if (i == arr.length - 1) {
+//             console.log(arr.splice(i, 1))
+//             break;
+//         }
+
+//     }
+// }    
+
+// lastElement()
+// console.log(arr)
+
 
 
 // Task 9
 
+// let str = "Hello worLd"
+
+// function lowerAnduppercase() {
+//     let gatheringWords = '';
+//     for (let i = 0; i < str.length; i++) {
+//         // console.log(i)
+//         for (let j of str[i]) {
+
+//             if (j == j.toUpperCase()) {
+//                 gatheringWords += j.toLowerCase();
+//             }
+//             else {
+//                 gatheringWords += j.toUpperCase();
+//             }
+//         }
+//     }
+
+//     console.log(gatheringWords);
+// }
+
+// lowerAnduppercase()
