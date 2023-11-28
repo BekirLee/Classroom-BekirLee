@@ -69,3 +69,30 @@ let arrABC = ['n', 'i', 'h', 'a', 'd'];
 // product();
 
 // Task 6
+
+
+
+// Task 7
+
+// function removeElement(array, elem) {
+
+//     for (let i = 0; i < array.length; i++) {
+//         if (array[i] == elem) {
+
+//             arr.splice(i, 1)
+//             break;
+//         }
+
+//     }
+
+// }
+
+// removeElement(arr, 3)
+// console.log(arr)
+
+
+// Task 8
+
+
+// Task 9
+
