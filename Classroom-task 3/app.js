@@ -69,32 +69,32 @@
 // product();
 
 // Task 6
-let arr = [2, 4, 3, 4, 6, 4, 3, 131];
+// let arr = [2, 4, 3, 4, 6, 4, 3, 131];
 
-function dublicate() {
-    let newArr = [];
-    let index = 0;
+// function dublicate() {
+//     let newArr = [];
+//     let index = 0;
 
-    for (let i = 0; i < arr.length - 1; i++) {
+//     for (let i = 0; i < arr.length - 1; i++) {
 
-        for (let j = i - 1; j < arr.length; j++) {
-            if (arr[j] == arr[i]) {
+//         for (let j = i - 1; j < arr.length; j++) {
+//             if (arr[j] == arr[i]) {
 
-                // newArr.push(arr[j]);
-                newArr[index] = arr[i];
-                index++;
-                // break;
-            }
+//                 // newArr.push(arr[j]);
+//                 newArr[index] = arr[i];
+//                 index++;
+//                 // break;
+//             }
 
-        }
-        // else{
-        //     console.log("hiiii")
-        // }
-    }
-    return newArr;
-}
+//         }
+//         // else{
+//         //     console.log("hiiii")
+//         // }
+//     }
+//     return newArr;
+// }
 
-dublicate();
+// dublicate();
 
 
 // Task 7
@@ -160,3 +160,17 @@ dublicate();
 // }
 
 // lowerAnduppercase()
+
+
+
+
+// // Task for live lesson
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// function deleteElements(array, num) {
+
+//     console.log(array.splice(arr.length - num, num + 1));
+// }
+
+// deleteElements(arr, 4)
