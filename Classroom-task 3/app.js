@@ -1,6 +1,6 @@
 // Task1
 
-let arr = [2, 3, 4, 4, 5, 6, 6, 7];
+let arr = [2, 3, 4, 6, 3, 9, 7];
 let arrABC = ['n', 'i', 'h', 'a', 'd'];
 // let arr1 = ['a', 'd', 7];
 
@@ -43,3 +43,29 @@ let arrABC = ['n', 'i', 'h', 'a', 'd'];
 
 // Task 4
 
+
+
+// Task 5
+
+// function sum() {
+//     let s = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         s += arr[i];
+//     }
+
+//     console.log(s);
+// }
+
+// sum();
+
+// function product() {
+//     let n = 1;
+//     for (let p = 0; p < arr.length; p++) {
+//         n = n * arr[p];
+//     }
+//     console.log(n);
+// }
+
+// product();
+
+// Task 6
