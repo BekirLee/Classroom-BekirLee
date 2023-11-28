@@ -1,13 +1,13 @@
 // Task1
 
-// let arr = [2, 4, 3, 4, 6, 4, 3];
-let arrABC = ['n', 'i', 'h', 'a', 'd'];
+// let arrABC = ['n', 'i', 'h', 'a', 'd'];
 // let arr1 = ['a', 'd', 7];
+// let arr = [2, 4, 3, 4, 6, 4, 3, 131];
 
 // function clone() {
 //     let newArr = [];
-//     for (let i = 0; i < arr1.length; i++) {
-//         newArr[i] = arr1[i];
+//     for (let i = 0; i < arr.length; i++) {
+//         newArr[i] = arr[i];
 //     }
 //     console.log(newArr);
 // }
@@ -69,7 +69,32 @@ let arrABC = ['n', 'i', 'h', 'a', 'd'];
 // product();
 
 // Task 6
+let arr = [2, 4, 3, 4, 6, 4, 3, 131];
 
+function dublicate() {
+    let newArr = [];
+    let index = 0;
+
+    for (let i = 0; i < arr.length - 1; i++) {
+
+        for (let j = i - 1; j < arr.length; j++) {
+            if (arr[j] == arr[i]) {
+
+                // newArr.push(arr[j]);
+                newArr[index] = arr[i];
+                index++;
+                // break;
+            }
+
+        }
+        // else{
+        //     console.log("hiiii")
+        // }
+    }
+    return newArr;
+}
+
+dublicate();
 
 
 // Task 7
@@ -105,7 +130,7 @@ let arrABC = ['n', 'i', 'h', 'a', 'd'];
 //         }
 
 //     }
-// }    
+// }
 
 // lastElement()
 // console.log(arr)
