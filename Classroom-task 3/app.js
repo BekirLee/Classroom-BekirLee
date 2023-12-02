@@ -174,3 +174,76 @@
 // }
 
 // deleteElements(arr, 4)
+
+
+
+// addSuffix(512); // Returns "512th"
+// addSuffix(2); // Returns "2nd"
+
+
+
+
+// ///Interview sorulari
+
+// function catchNum() {
+
+//     let number = 220;
+//     let num = number % 10;
+
+
+
+//     if (num == 0) {
+//         console.log(number + '')
+//     }
+
+//     else if (num == 1) {
+//         console.log(number + 'st')
+//     }
+
+//     else if (num == 2) {
+//         console.log(number + 'nd')
+//     }
+
+//     else if (num == 3) {
+//         console.log(number + 'rd')
+//     }
+//     else {
+//         console.log(number + "th")
+
+//     }
+
+
+// }
+
+// catchNum();
+
+
+
+let number = '121-(313)121((33'
+let number1 = '121-(313)12(1)3-3'
+let number2 = '12--1-(313)12133'
+
+function takeNumber() {
+
+    let digits = '0123456789'
+    let str = ''
+    // for (let i = 0; i < number.length; i++) {
+
+    //     if (number[i] == '(') {
+    //         number[i] = ' '
+    //         console.log(number[i])
+    //     }
+    // }
+
+    for (let n of number) {
+
+        if (digits.includes(n)) {
+            str += n;
+        }
+        // console.log(n);
+    }
+    console.log(str)
+}
+
+takeNumber()
+// console.log(number.replace('()', ""))
